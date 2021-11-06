@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8761
-ADD target/server.jar server.jar
-ENTRYPOINT ["java","-jar","/server.jar"] 
+ADD target/eureka.jar eureka.jar
+ENTRYPOINT ["java","-jar","/eureka.jar"] 
